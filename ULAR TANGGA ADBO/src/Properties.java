@@ -9,5 +9,7 @@
  * @author priambodo_pangestu
  */
 public class Properties {
-    
+    public Properties(){
+        
+    }
 }
