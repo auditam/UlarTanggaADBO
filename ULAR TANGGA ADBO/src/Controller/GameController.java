@@ -4,10 +4,12 @@
  * and open the template in the editor.
  */
 
+package Controller;
+
 /**
  *
  * @author priambodo_pangestu
  */
-public class Board {
+public class GameController {
     
 }
