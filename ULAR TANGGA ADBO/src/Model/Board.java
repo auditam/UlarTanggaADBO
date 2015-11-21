@@ -39,5 +39,7 @@ public class Board {
         return 0;
     }
     
-    
+    public void setBoard(){
+        
+    }
 }
