@@ -10,6 +10,21 @@ package Model;
  *
  * @author priambodo_pangestu
  */
-public class Transporter {
+public interface Transporter {
+    public abstract Box getPosition();
+    
+    public abstract Box getHeadPosition();
+    
+    public abstract Box getTailPosition();
+    
+    public abstract String getName();
+    
+    public abstract void setHeadPosition();
+    
+    public abstract void setTailPosition();
+    
+    public abstract boolean checkOverBoard();
+    
+    
     
 }

@@ -27,7 +27,7 @@ public class Board {
         
     }
     
-    public Player[] getArrofPlayer(){
+    public Player[] getArrOfPlayer(){
         return arrOfPlayer;
     }
     
@@ -38,4 +38,6 @@ public class Board {
     public int getNumOfPlayers(){
         return 0;
     }
+    
+    
 }

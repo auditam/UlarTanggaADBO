@@ -1,5 +1,7 @@
 package Model;
 
+import java.util.Random;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -17,7 +19,6 @@ public class Dice {
      * method yang digunakan untuk mendapatkan nomor dadu secara acak
      */
     public int rollDadu(){
-        // merandom nomor dadu
-        return 0;
+        return (new Random().nextInt(6) + 1 );
     }
 }
