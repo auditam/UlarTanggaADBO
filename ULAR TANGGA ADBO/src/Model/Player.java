@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
  * @author priambodo_pangestu
  */
 public class Player {
-    private int spotX, spotY, playerTurn;
+    private int spotX, spotY, playerTurn, playerPos;
     
     private Box posInBox;
     
@@ -23,8 +23,21 @@ public class Player {
     
     private boolean isComp;
     
+    private boolean isFacingRight;
+    
     public Player(int playerNum){
         
     }
-    
+    public boolean getIsFacingRight(){
+        return this.isFacingRight;
+    }
+    public int getPos(){
+        return this.playerPos;
+    }
+    public int getSpotX(){
+        return this.spotX;
+    }
+    public int getSpotY(){
+        return this.spotY;
+    }
 }

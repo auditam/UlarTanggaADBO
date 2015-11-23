@@ -50,6 +50,9 @@ public class Board {
         }
     }
     
+    public Player[] getArrOfPlayer(){
+        return this.arrOfPlayer;
+    }
     public int getNumOfTrans(){
         return (numOfSnakes + numOfLadders);
     }
