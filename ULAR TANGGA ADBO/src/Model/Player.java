@@ -1,5 +1,7 @@
 package Model;
 
+import java.awt.image.BufferedImage;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,29 +13,18 @@ package Model;
  * @author priambodo_pangestu
  */
 public class Player {
+    private int spotX, spotY, playerTurn;
     
-    //atribut untuk nama satu pemain
-    private String nama;
+    private Box posInBox;
     
-    //atribut untuk posisi yang dimiliki pemain
-    private int posisi;
+    private Board bigBoard;
     
-    //status pemain apakah menang (1) atau tidak/belum (0)
-    private boolean status;
+    private BufferedImage picture;
     
+    private boolean isComp;
     
-    /**
-     * method yang digunakan untuk mengatur posisi pemain
-     */
-    public void setPosisi(){
+    public Player(int playerNum){
         
     }
     
-    /**
-     * method yang digunakan untuk mendapatkan posisi pemain tertentu
-     * @return posisi pemain
-     */
-    public int getPosisi(){
-        return this.posisi;
-    }
 }

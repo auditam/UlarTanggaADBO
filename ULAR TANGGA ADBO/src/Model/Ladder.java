@@ -10,27 +10,28 @@ package Model;
  *
  * @author priambodo_pangestu
  */
-public class Transporter extends Box {
-    
+public class Ladder extends Transporter  {
+
     private Box target;
     String type;
 
-    public Transporter(int x, int y, Box target,String type) {
-        super(x, y);
-        this.target = target;
-        this.type = type;
+    public Ladder(int x, int y, Box target, String type) {
+        super(x, y, target, type);
     }
 
+    @Override
     public Box getTarget() {
-        return this.target;
+        return target;
     }
 
+    @Override
     public void setTarget(Box target) {
         this.target = target;
     }
 
-    public String getType(){
-        return this.type;
+    @Override
+    public String getType() {
+        return type;
     }
     
 }
